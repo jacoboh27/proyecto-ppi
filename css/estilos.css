@@ -1,9 +1,22 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+    
+  }
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(../assets/fonts/OpenSans-Light.ttf);
+}
+
 #envoltura{
+    font-family: "OpenSans-Bold";
     width: 600px;
     margin: 0 auto;    
 }
 
 header{
+    font-family: "OpenSans-Bold";
     border: 1px solid #000;
     background-color: aqua;    
     text-align: center;
@@ -11,11 +24,30 @@ header{
 }
 
 #main{
+    font-family: "OpenSans-Light";
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
     border-right: 1px solid #000;
-    background-color: darkgrey;
-    text-align: justify;
+    background-color: #e5e5e5;
+    text-align: center;
     text-justify: inter-word;
     padding: 10px;
+}
+
+.button-pri{
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgba(13, 253, 253, 0.808);
+    color: #292929;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 8px 30px;
+    max-width: 300px;
+    border-radius: 25px;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    border: none;
+    position: relative
 }

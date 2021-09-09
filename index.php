@@ -9,7 +9,7 @@
     <body>
         <div id="envoltura">
             <header>
-                <h1>Software Gesti&oacute;n Papeleria Wide-System</h1>                
+                <h1>Software Gesti&oacute;n Papeler&iacute;a <br> Wide-System</h1>                
             </header>
             <div id="main">
                 <p>
@@ -19,9 +19,9 @@
                         echo "Si aun no tiene cuenta, puede crear una";
                     ?>
                 </p>
-                <a href="index-login.php">Iniciar Sesi&oacute;n</a>
+                <a class="button-pri" href="index-login.php">Iniciar Sesi&oacute;n</a>
                 <br><br>
-                <a href="HerenClsAbsInter.php">Crear Cuenta</a>
+                <a class="button-pri" href="HerenClsAbsInter.php">Crear Cuenta</a>
                 <br><br>                                
             </div>        
         </div>
