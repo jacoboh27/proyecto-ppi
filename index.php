@@ -21,9 +21,9 @@
                 </p>
                 <a class="button-pri" href="index-login.php">Iniciar Sesi&oacute;n</a>
                 <br><br>
-                <a class="button-pri" href="">Crear Cuenta</a>
+                <a class="button-pri" href="crear-cuenta-user.php">Crear Cuenta</a>
                 <br><br> 
-                <a class="button-pri" href="prueba-con-postgres.php">prueba psg</a>
+                <a class="button-pri" href="index-login-admin.php">Iniciar Sesión Administrador</a>
                 <br><br>                              
             </div>        
         </div>
