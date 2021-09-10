@@ -46,19 +46,27 @@ if (isset($_POST['delete'])) {
     <body>
         <div id="envoltura">
             <header>
-                <h1>TODOS</h1>                
+                <h1>Solicitudes</h1>                
             </header>
+            <div id="main">
+                <form name="formUser" method="POST" action="" align="center">
 
-            <form name="formUser" method="POST" action="" align="center">
+                <h2>Ingrese la nueva solicitud</h2>
+                <h5>Aquí puede agregar solictudes como separar material o mandar archivos imprimibles, 
+                    para recoger en sitio más tarde.</h5>
 
-            <h3>Ingrese la nueva peticion</h3>
-
-            descripcion: <input type="text" name="description">
-            <br><br>
-            <input type="submit" name="enviar" value="Enviar">
-            <input type="reset">
-            </form>
-
+                Tipo de solicitud: <input type="text" name="description">
+                <br><br>
+                <p>Aquí puedes detallar tu orden</p>
+                descripcion: <input type="text" name="description">
+                <br><br>
+                <h5>adjunte archvios a imprimir en caso de aplicar</h5>
+                Archivos: <input type="text" name="description">
+                <br><br>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset">
+                </form>
+            </div>
 
         </div>
     </body>

@@ -29,7 +29,7 @@ session_start();
                     ?>
                 </div>
                 
-                <h3>Ingrese los datos de usuario para iniciar sesión:</h3>
+                <h3>Ingrese los datos del usuario Administrador:</h3>
 
                 Usuario: <input type="text" name="user_name">
                 <br>
@@ -38,8 +38,7 @@ session_start();
                 <input type="hidden" name="formulario" value="index"/>
                 <input class="button-pri" type="submit" name="enviar" value="Enviar"/>
                 <input class="button-pri" type="reset"/>
-                <a class="button-pri" href="menu-principal-user.php">Iniciar Sesión</a>
-                <br><br>  
+                <a class="button-pri" href="menu-principal-admin.php">Iniciar Sesión</a>
             </form> 
         </div>
     </div>      

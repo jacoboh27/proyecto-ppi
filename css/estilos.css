@@ -51,3 +51,13 @@ header{
     border: none;
     position: relative
 }
+
+.principal {
+    padding: 10px;
+}
+
+.bloque {
+    width: 35%;
+    float: left;
+    padding: 10px;
+}
