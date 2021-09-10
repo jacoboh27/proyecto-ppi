@@ -1,0 +1,6 @@
+CREATE DATABASE todos;
+
+CREATE TABLE todos(
+    id SERIAL PRIMARY KEY,
+    description VARCHAR(100) NOT NULL;
+);
