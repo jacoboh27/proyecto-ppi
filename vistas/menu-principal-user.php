@@ -13,9 +13,9 @@
             </header>
             <div id="main">
                 <h2>MENÚ PRINCIPAL</h2>
-                <a class="button-pri" href="prueba-con-postgres.php">Crear Solicitud</a>
+                <a class="button-pri" href="crear-solicitud-user.php">Crear Solicitud</a>
                 <br><br>
-                <a class="button-pri" href="">Ver Productos</a>
+                <a class="button-pri" href="productos-user.php">Ver Productos</a>
                 <br><br> 
                 <a class="button-pri" href="../index.php">Cerrar Sesión</a>
                 <br><br>                              

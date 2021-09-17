@@ -5,7 +5,7 @@ CREATE TABLE todos(
     description VARCHAR(100) NOT NULL;
 );
 
-CREATE TABLE myapp03 ( 
+CREATE TABLE login_user ( 
 	id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
 	nombre VARCHAR(120) NOT NULL , 
 	user_name VARCHAR(20) NOT NULL , 

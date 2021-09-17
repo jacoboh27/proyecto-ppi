@@ -13,10 +13,12 @@
             </header>
             <div id="main">
                 <h2>MENÚ PRINCIPAL ADMINISTRADOR</h2>
-                <a class="button-pri" href="">Ver Solicitudes</a>
+                <a class="button-pri" href="gestionar-solicitudes.php">Gestionar Solicitudes</a>
                 <br><br>
-                <a class="button-pri" href="">Gestionar Productos</a>
+                <a class="button-pri" href="subir-productos-admin.php">Subir Nuevos Productos</a>
                 <br><br> 
+                <a class="button-pri" href="">Gestionar Productos</a>
+                <br><br>
                 <a class="button-pri" href="../index.php">Cerrar Sesión</a>
                 <br><br>                              
             </div>        
