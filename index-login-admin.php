@@ -30,16 +30,16 @@ session_start();
                 </div>
                 
                 <h3>Ingrese los datos del usuario Administrador:</h3>
-
                 Usuario: <input type="text" name="user_name">
                 <br>
                 Contraseña: <input type="password" name="password">
                 <br><br>
-                <input type="hidden" name="formulario" value="index"/>
-                <input class="button-pri" type="submit" name="enviar" value="Enviar"/>
+                <input type="hidden" name="formulario" value="index-admin"/>
+                <input class="button-pri" type="submit" name="enviar" value="Iniciar Sesión"/>
                 <input class="button-pri" type="reset"/>
-                <a class="button-pri" href="menu-principal-admin.php">Iniciar Sesión</a>
             </form> 
+            <br>
+            <a href="index.php">Volver</a> 
         </div>
     </div>      
 </body>

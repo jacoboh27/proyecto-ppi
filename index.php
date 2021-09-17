@@ -3,7 +3,7 @@
     <head>
         <title>Gestion Wide-System</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" content="text/css" href="css/normaliza.css" />
+        <link rel="stylesheet" content="text/css" href="css/normalize.css" />
         <link rel="stylesheet" content="text/css" href="css/estilos.css" />
     </head>
     <body>
@@ -21,7 +21,7 @@
                 </p>
                 <a class="button-pri" href="index-login.php">Iniciar Sesi&oacute;n</a>
                 <br><br>
-                <a class="button-pri" href="crear-cuenta-user.php">Crear Cuenta</a>
+                <a class="button-pri" href="vistas/registro-user.php">Crear Cuenta</a>
                 <br><br> 
                 <a class="button-pri" href="index-login-admin.php">Iniciar Sesión Administrador</a>
                 <br><br>                              

@@ -36,11 +36,11 @@ session_start();
                 Contraseña: <input type="password" name="password">
                 <br><br>
                 <input type="hidden" name="formulario" value="index"/>
-                <input class="button-pri" type="submit" name="enviar" value="Enviar"/>
-                <input class="button-pri" type="reset"/>
-                <a class="button-pri" href="menu-principal-user.php">Iniciar Sesión</a>
-                <br><br>  
-            </form> 
+                <input class="button-pri" type="submit" name="Iniciar Sesión" value="Iniciar Sesión"/>
+                <input class="button-pri" type="reset"/>                
+            </form>
+            <br>
+            <a href="index.php">Volver</a> 
         </div>
     </div>      
 </body>
